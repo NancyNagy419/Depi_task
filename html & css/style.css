@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5d04e;
+    font-family: Arial, sans-serif;
+  }
+
+  .card {
+    width: 350px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 0 0 black;
+    background-color: white;
+    overflow: hidden;
+  }
+
+  .card-image {
+    height: 200px;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+    background: url('Screenshot 2024-12-10 170810.png') no-repeat center/cover;
+  }
+
+  .card-content {
+    padding: 16px;
+  }
+
+  .tag {
+    display: inline-block;
+    background-color: #f9c800;
+    color: #000;
+    font-weight: bold;
+    font-size: 0.75rem;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+  }
+
+  .card-content p.date {
+    font-size: 0.85rem;
+    color: #666;
+    margin-bottom: 12px;
+  }
+
+  .card-content h2 {
+    font-size: 1.25rem;
+    color: #000;
+    margin-bottom: 12px;
+  }
+
+  .card-content p.description {
+    font-size: 0.9rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 16px;
+  }
+
+  .card-footer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .card-footer img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .card-footer span {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #333;
+  }
